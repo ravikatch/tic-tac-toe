@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/assets/css/screen.css">
+	
+</head>
+<body data-type='test'>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><!-- <script type="application/javascript" src="/main.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script  src="/assets/js/game.js"></script>
+
+<div class="tic-tac-toe clearfix">
+  <div class="grid" data-row="0" data-column="0" id="00"></div>
+  <div class="grid" data-row="0" data-column="1" id="01"></div>
+  <div class="grid" data-row="0" data-column="2" id="02"></div>
+
+  <div class="grid" data-row="1" data-column="0" id="10"></div>
+  <div class="grid" data-row="1" data-column="1" id="11"></div>
+  <div class="grid" data-row="1" data-column="2" id="12"></div>
+
+  <div class="grid" data-row="2" data-column="0" id="20"></div>
+  <div class="grid" data-row="2" data-column="1" id="21"></div>
+  <div class="grid" data-row="2" data-column="2" id="22"></div>
+</div>
+
+
+<div class="warning fixedToTop">Player 1's turn</div>
+
+<!-- overlay message - win/lose/draw -->
+<div class="overlay">
+    <div class="message">
+      <h2>Game Over</h2>
+      <span class="theMessage">
+        Well done Player 1, You've won the game!
+      </span>
+      <a href="#" class="play-again">Play another round&nbsp; &#8250;</a>
+    </div>
+</div>
+
+<!-- Start overlay -->
+<div class="start-overlay">
+  <div class="start-message">
+    <span class="theMessage">
+      Welcome to tic-tac-toe
+    </span>
+     <button class="btn btn-primary start"  id="start">start</button> 
+<button class="btn btn-primary join"  id="join">join</button>
+  </div>
+ 
+	<div class="footer">
+		Simple JS Tic-Tac-Toe by <a href="#">Pranay</a> &nbsp;&nbsp;...&nbsp;&nbsp; <a href="#">Share</a> or <a href="#">Tweet</a>
+	</div>
+</div>
+
+</html>

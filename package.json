@@ -1,0 +1,24 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "game uding peerjs",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "peer": "^0.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "later"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Pranay Yelugam",
+  "license": "MIT"
+}
